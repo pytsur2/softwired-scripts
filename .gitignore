@@ -1,0 +1,39 @@
+# 🔐 SSH and private keys
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+*.crt
+
+# 🔐 VPN / WireGuard config
+*.conf
+*.qr.png
+
+# 🔐 Secrets
+*.env
+*.secrets
+*.token
+*.credentials
+secrets.json
+
+# 💾 Caches and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.sqlite3
+
+# 🛠 IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Local system files
+*.DS_Store
+*.local
+*.sublime*
+
+# SSH folder (precaution)
+.ssh/

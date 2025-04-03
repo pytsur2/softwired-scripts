@@ -1,0 +1,38 @@
+# 🔐 SSH és privát kulcsok
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+*.crt
+
+# 🔐 WireGuard és VPN config
+*.conf
+*.qr.png
+
+# 🔐 Jelszavak, tokenek, secrets
+*.env
+*.secrets
+*.token
+*.credentials
+secrets.json
+
+# 💾 Lokális fájlok, cache
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.sqlite3
+
+# 🛠 IDE / Editor-specifikus fájlok
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# 📂 Egyéni géped / nem publikus mappák
+*.local
+*.DS_Store
+*.sublime*
+
+.ssh/
