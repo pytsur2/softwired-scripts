@@ -1,17 +1,20 @@
-# SSH kulcsgeneráló és alias konfiguráló script
 
-Ez a script SSH kulcsokat generál, konfigurálja az SSH config fájlt alias alapján, 
-és feltölti a publikus kulcsot a távoli szerverre.
+# SSH Key Generator and Alias Configuration Script
 
-## Használat
+This script generates an SSH key pair, configures a new alias in your SSH config file,  
+and uploads the public key to the specified remote server.
 
-```bash
+## Usage
+
+```
 python3 ssh_key_set.py
 ```
 
-## Figyelmeztetés
-Ez a script módosítja a `~/.ssh/config` fájlt és létrehoz kulcsfájlokat. 
-Minden művelet előtt megerősítést kér.
+## Warning
 
-## Licence
+This script modifies your `~/.ssh/config` file and creates SSH key files.  
+It asks for confirmation before performing any destructive actions.
+
+## License
+
 MIT
