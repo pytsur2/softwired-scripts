@@ -1,0 +1,11 @@
+Searching from: /home/user/projects
+
+Git repositories:
+
+1. /home/user/projects/old-project
+2. /home/user/projects/tmp/demo-repo
+
+Enter a number to remove the .git directory (Enter = skip): 2
+Are you sure you want to delete the .git directory from: /home/user/projects/tmp/demo-repo? (y/n): y
+
+Removed: /home/user/projects/tmp/demo-repo/.git
